@@ -3,7 +3,7 @@
   flex-direction: column;
   box-sizing: border-box;
   width: 200px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $card-border-color;
   border-radius: 5px;
   padding: 32px 16px 16px;
   color: $main-text-color;
@@ -72,13 +72,13 @@
     width: 166px;
     height: 40px;
     border-radius: 5px;
-    border: 1px solid #00acdc;
-    background-color: #00acdc;
-    color: #fff;
+    border: 1px solid $blue-item-color;
+    background-color: $blue-item-color;
+    color: $white-item-color;
 
     &:hover {
-      background-color: #fff;
-      color: #00acdc;
+      background-color: $white-item-color;
+      color: $blue-item-color;
     }
   }
 
@@ -100,6 +100,6 @@
   }
 
   &:hover &__title {
-    color: #34568b;
+    color: $title-hover-color;
   }
 }
